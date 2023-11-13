@@ -13,35 +13,31 @@ export default function ProfileScreen() {
           <View style={{ ...styles.imageContainer, paddingHorizontal: 20, marginBottom: 20 }}>
             <Image
               source={{
-                uri: 'https://templates.iqonic.design/sofbox-admin/sofbox-dashboard-html/html/images/user/1.jpg',
+                uri: 'https://cdn.pnghd.pics/data/753/no-foto-profil-18.png',
               }}
               style={{ ...styles.profileImage }}
             />
             <View style={{ marginLeft: 10 }}>
-              <Text style={styles.profileName}>Michael Kevin Adinata</Text>
-              <View style={{ alignItems: 'center', flexDirection: 'row', }}>
-                <Star color={'rgb(255, 125, 0)'} variant="Linear" size={24} />
-                <Text style={{ ...styles.profileInfo, color: 'rgb(255, 125, 0)', fontWeight: 'bold', paddingLeft: 5, }}>Bos</Text>
+              <Text style={styles.profileName}>Yohanes Yudha</Text>
+              <View style={{ alignItems: 'center', flexDirection: 'row', }}>              
               </View>
             </View>
           </View>
-
-
-          <View style={{}}>
+          <View style={{backgroundColor:'#54C3C5', borderRadius:10, height:250,}}>
             <View style={{ paddingHorizontal: 20, marginBottom: 10 }}>
               <Text style={{ ...styles.profileInfo, color: 'black', fontWeight: 'bold', }}>Akun</Text>
             </View>
             <View style={{ flexDirection: 'row', paddingHorizontal: 24, marginBottom: 25, }}>
               <UserEdit color={'green'} variant="Linear" size={24} />
               <View style={{ flexDirection: 'column' }}>
-                <Text style={styles.profileSetting}>Edit Profile Saya</Text>
+                <Text style={styles.profileSetting}>Edit Profile</Text>
                 <Text style={styles.profileSettingDesc}>Perbarui informasi personal anda</Text>
               </View>
             </View>
             <View style={{ flexDirection: 'row', paddingHorizontal: 24, marginBottom: 25, }}>
               <Setting2 color={'green'} variant="Linear" size={24} />
               <View style={{ flexDirection: 'column' }}>
-                <Text style={styles.profileSetting}>Pengaturan</Text>
+                <Text style={styles.profileSetting}>Setting</Text>
                 <Text style={styles.profileSettingDesc}>Edit keamanan dan pengaturan lainnya</Text>
               </View>
             </View>

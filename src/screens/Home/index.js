@@ -27,8 +27,9 @@ export default function App() {
         <Payment/>
         <Main/>
       </ScrollView>
-      <View style={home.gambar}>
-          
+      <View>
+        <Image style={styles.gambar}source={{uri:'https://gobiz.co.id/pusat-pengetahuan/wp-content/uploads/2022/09/GoAds.jpg'}}/>
+       
       </View>
     </View>
   )
@@ -206,13 +207,12 @@ const home = StyleSheet.create({
     color: colors.black(),
     top: 12,
   },
-  gambar:{
-    
-  },
+ 
 });
 
 
 const styles = StyleSheet.create({
+
   container: {
     flex: 1,
     backgroundColor: colors.white(),
@@ -248,6 +248,11 @@ const styles = StyleSheet.create({
   profileIcon: {
     position: 'absolute',
     left: 300,
+  },
+  gambar:{
+    width: 'auto',
+    height: 150,
+    borderRadius:10,
   },
 })
 

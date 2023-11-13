@@ -22,13 +22,13 @@ const Main = () => {
   return (
     <View style={home.container}>
       <ScrollView horizontal style={{ paddingHorizontal: 20 }} showsHorizontalScrollIndicator={false}>
-        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 25, marginHorizontal: 5 }}>
+        <View style={{ height:50, backgroundColor: 'white', padding: 10, borderRadius: 25, marginHorizontal: 5, }}>
           <Text style={{ color: 'black' }}>Gocar</Text>
         </View>
-        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 25, marginHorizontal: 5 }}>
+        <View style={{ height:50, backgroundColor: 'white', padding: 10, borderRadius: 25, marginHorizontal: 5 }}>
           <Text style={{ color: 'black' }}>GoRide</Text>
         </View>
-        <View style={{ backgroundColor: 'lightgrey', padding: 10, borderRadius: 25, marginHorizontal: 5 }}>
+        <View style={{ height:50, backgroundColor: 'white', padding: 10, borderRadius: 25, marginHorizontal: 5 }}>
           <Text style={{ color: 'black' }}>GoFood</Text>
         </View>
       </ScrollView>
@@ -64,9 +64,12 @@ const Main = () => {
 
 const home = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: colors.white(),
+    flex:1,
+    backgroundColor: '#80C66D',
     paddingHorizontal: 6,
+    paddingTop:10,
+    paddingBottom:10,
+    borderRadius:10,
   },
   rowContainer: {
     flexDirection: 'row',
@@ -142,7 +145,7 @@ const home = StyleSheet.create({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.white(),
+    backgroundColor: color='white',
   },
   image: {
     width: 'auto',
